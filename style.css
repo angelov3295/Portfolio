@@ -49,7 +49,7 @@ body{
 @keyframes Arrow{
   0%   { left:0px; top:0px;}
   100% { left:2000px; top:0px;}
-}
+}.
 }
 .nav-item{
   display: flex;

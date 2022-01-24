@@ -24,8 +24,26 @@ nav{
 } */
 
 body{
-  background: grey;
+  background: #343434;
+  /* background-image: url('images/key board red_lang.png'); */
+}
+
+.home-body{
+  width: 100%;
   background-image: url('images/key board red_lang.png');
+  align-items: center;
+  display: block;
+  text-align: center;
+  margin: 80px 100px 0 0;
+}
+
+.contact-body{
+  width: 100%;
+  background-image: url('images/contact us_lang.png');
+  align-items: center;
+  display: block;
+  text-align: center;
+  margin: 80px 100px 0 0;
 }
 
 .navigation{
@@ -102,12 +120,12 @@ body{
   background-color: rgba(215,4,6,0.56);
 }
 
-.body{
+/* .body{
   align-items: center;
   display: block;
   text-align: center;
   margin: 80px 100px 0 100px;
-}
+} */
 
 .homepage-card{
   background: rgba(215,4,6,0.56) ;
@@ -115,6 +133,7 @@ body{
   border-radius: 20px;
   align-items: center;
   max-width: 800px;
+  margin-left: 100px;
 }
 
 .homepage-card p{

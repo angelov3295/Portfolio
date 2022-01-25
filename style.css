@@ -43,7 +43,7 @@ body{
 
 .about-us-body{
   width: 100%;
-  background-image: url('images/key board red_lang.png');
+  /* background-image: url('images/key board red_lang.png'); */
 
   align-items: center;
   display: flex;

@@ -61,6 +61,26 @@ body{
   margin: 80px 80px 0 0;
 }
 
+.portfolio-body{
+  width: 100%;
+  height: auto;
+  /* background-image: url('images/key board red_lang.png') ; */
+  /* position: fixed; */
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin: 80px 0px 0 0;
+  background-size: auto;
+}
+
+.portfolio-card-1{
+  background-color: rgba(215,4,6,0.56) ;
+  border-radius: 20px;
+  align-items: center;
+  width: 100%;
+  margin: 80px 0 0 0px;
+}
+
 .navigation{
   display: flex;
   text-align: center;

@@ -31,13 +31,15 @@ body{
 .home-body{
   width: 100%;
   height: auto;
-  background-image: url('images/key board red_lang.png');
+  /* background-image: url('images/key board red_lang.png') ; */
   /* position: fixed; */
   align-items: center;
   display: flex;
   text-align: center;
   margin: 80px 0px 0 0;
+  background-size: auto;
 }
+
 
 .about-us-body{
   width: 100%;
@@ -56,7 +58,7 @@ body{
   background-image: url('images/contact us_lang.png');
   align-items: center;
   text-align: center;
-  margin: 80px 0 0 0;
+  margin: 80px 80px 0 0;
 }
 
 .navigation{

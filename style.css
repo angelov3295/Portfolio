@@ -3,6 +3,7 @@
   text-decoration:none;
   /* font-style: sans-serif; */
   font-weight: lighter;
+  margin: 0;
 }
 
 nav{
@@ -42,13 +43,15 @@ body{
 
 
 .about-us-body{
+
   width: 100%;
   /* background-image: url('images/key board red_lang.png'); */
 
-  align-items: center;
   display: flex;
   text-align: center;
-  margin: 80px 0px 0 0;
+  margin: 5% 10% 0 0;
+  justify-content: center;
+  align-content: center;
 }
 
 .contact-body{
@@ -163,7 +166,8 @@ body{
   align-items: center;
   /* padding-top: 80px; */
   max-width: 800px;
-  margin: 80px 0 0 100px;
+  margin: 80px 0 0 100px; 
+ 
 }
 
 .homepage-card p{
@@ -250,6 +254,7 @@ button{
   border-radius: 10px;
 }
 
+
 /* @media screen and (max-width: 960px){
   .navigation{
     display: grid;
@@ -322,5 +327,19 @@ button{
   .navigation.active{
     left: 0;
     
+=======
+.Teamwork_head{
+  display: flex;
+  color: #D70006;
+  margin: 10% 50% 0% 25%;
+  font-size: 100%;
+  
+}
+@media screen and (min-width:480px) {
+  .Teamwork_head{
+    font-size: 600%;
   }
+}
+.pf_img{
+  justify-content: center;
 }

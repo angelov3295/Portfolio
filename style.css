@@ -332,13 +332,10 @@ button{
   display: flex;
   color: #D70006;
   margin: 10% 50% 0% 25%;
-  font-size: 100%;
+  font-size: 600%;
   
 }
-@media screen and (min-width:480px) {
-  .Teamwork_head{
-    font-size: 600%;
-  }
+
 }
 .pf_img{
   justify-content: center;

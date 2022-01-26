@@ -339,4 +339,17 @@ button{
 }
 .pf_img{
   justify-content: center;
-}}
+}
+
+.team-gallery img{
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+}
+.team-gallery{
+display: flex;
+flex-wrap: wrap ;
+justify-content:space-evenly;
+width:  400px;
+text-align: justify;
+}

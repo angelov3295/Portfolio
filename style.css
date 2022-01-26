@@ -327,7 +327,7 @@ button{
   .navigation.active{
     left: 0;
     
-=======
+  }
 .Teamwork_head{
   display: flex;
   color: #D70006;
@@ -342,4 +342,4 @@ button{
 }
 .pf_img{
   justify-content: center;
-}
+}}

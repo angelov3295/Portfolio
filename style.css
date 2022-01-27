@@ -477,7 +477,7 @@ grid-row-end: 3;
 
 .services{
   display: flex;
-  justify-content: ;
+  /* justify-content: ; */
   margin: 30% 10% 0 10%;
   /* width: 100%;
   height: 100%; */
@@ -552,6 +552,22 @@ grid-row-end: 3;
  color: #d70006;
 }
 
+.portfolio-card h2{
+  text-align: left;
+  margin-left: 10%;
+}
+
+.portfolio-card hr{
+  color: #d70006;
+  width: 50%;
+  height: 2px;
+  background-color: #d70006;
+}
+
+.portfolio-card1{
+  align-items: center;
+}
+
 /* @media screen and (max-device-width: 640px) {
 }
 
@@ -563,8 +579,3 @@ grid-row-end: 3;
 
 @media screen and (min-width: 1024px){
 }*/ 
-.gallery-item{
- 
-  
-  
-}

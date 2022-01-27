@@ -303,7 +303,6 @@ button {
     height: 50vw;
     z-index: -1;
   }
-
   .nav-logo{
     display: flex;
     justify-content: space-between;
@@ -384,14 +383,59 @@ button {
   padding: 10px;
 }
 .team-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   max-width: 1000px;
+  display: grid;
+  grid-template-columns: 244px 244px 244px;
+  /* gap: 10px;
+  grid-auto-rows: minmax(100px, auto); */
+  
+}
+  
+
+.team-gallery a {
   text-align: justify;
 }
-a {
-  text-align: justify;
+.a{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+
+}
+.b{
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+
+  
+}
+.c{
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+  
+}
+.d{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+  
+}
+.e{
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;  
+}
+.f{
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+  
 }
 
 .portfolio-body {
@@ -464,4 +508,9 @@ a {
 }
 
 @media screen and (min-width: 1024px){
+}*/ 
+.gallery-item{
+ 
+  
+  
 }

@@ -376,18 +376,26 @@ button {
   min-width: 800px;
   margin: 10% auto;
 }
+.about-us-card h2{
+  margin: 10% 0 10% 0;
+}
 
 .team-gallery img {
   width: 200px;
   height: auto;
   padding: 10px;
+  box-shadow: 50px;
+}
+.team-gallery img:hover{
+transform:scale(1.1);
+transition: ease-in-out 1s;
 }
 .team-gallery {
   max-width: 1000px;
   display: grid;
-  grid-template-columns: 244px 244px 244px;
-  /* gap: 10px;
-  grid-auto-rows: minmax(100px, auto); */
+  grid-template-columns: 270px 270px 270px;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto); 
   
 }
   
@@ -400,6 +408,7 @@ grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 1;
 grid-row-end: 2;
+
 
 }
 .b{
@@ -509,8 +518,3 @@ grid-row-end: 3;
 
 @media screen and (min-width: 1024px){
 }*/ 
-.gallery-item{
- 
-  
-  
-}

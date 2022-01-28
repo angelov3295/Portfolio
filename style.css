@@ -491,11 +491,11 @@ grid-row-end: 3;
 .services{
   display: flex;
   /* justify-content: ; */
-  /* margin: 30% 10% 0 10%; */
+  margin: 30% 0 0 0;
   /* margin: 20% 30%; */
-  padding: 10% 10%;
+  /* padding: 10% 15%; */
   /* /* width: 100%; */
-  height: 100%; */
+  height: 100%; 
 }
 
 .services-card{
@@ -516,7 +516,7 @@ grid-row-end: 3;
 .services-row1{
   display: grid;
   justify-content: center;
-  /* width: 50%; */
+  width: 50%;
 }
 
 .services-row2{
